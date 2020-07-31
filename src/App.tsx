@@ -21,7 +21,7 @@ const App: FC<Iprops> = (props)=> {
           <img src={logo} alt={logo}/>
         </div>
         <div className="title">article - redux observable</div>
-        <div className="mt-1"><Button type="primary" onClick={onAdd}>new article</Button></div>
+        <div className="mt-1"><Button type="primary" onClick={onAdd}> new article </Button></div>
     </div>
   );
 }
